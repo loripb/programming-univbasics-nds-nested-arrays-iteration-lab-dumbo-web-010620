@@ -11,7 +11,7 @@ def join_ingredients(src)
   while array_index < src.count do
     food_index = 0
     while food_index < src[array_index].count do
-      return src[array_index][food_index][0] = " SENTANCE "
+      return src[array_index][food_index] = "I love #{food_index[0]} and #{food_index[1] on my pizza}"
       food_index += 1
     end
     array_index += 1
