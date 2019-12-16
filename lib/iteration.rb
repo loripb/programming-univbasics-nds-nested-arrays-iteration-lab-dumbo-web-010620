@@ -7,10 +7,13 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
 
-  src.each do |foods|
-    foods = "I love #{foods[0]} and #{foods[1]} on my pizza"
+  array_index = 0
+  while array_index < src.count do
+    food_index = 0
+    while food_index < src[array_index].count do
+      src[array_index] = " SENTANCE "
+    end
   end
-end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
