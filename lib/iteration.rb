@@ -12,7 +12,9 @@ def join_ingredients(src)
     food_index = 0
     while food_index < src[array_index].count do
       src[array_index] = " SENTANCE "
+      food_index += 1
     end
+    array_index += 1
   end
 
 def find_greater_pair(src)
