@@ -17,6 +17,7 @@ def join_ingredients(src)
     end
     array_index += 1
   end
+  pizza_combos
 end
 
 def find_greater_pair(src)
