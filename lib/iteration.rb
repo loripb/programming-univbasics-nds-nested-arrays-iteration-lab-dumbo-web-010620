@@ -10,11 +10,7 @@ def join_ingredients(src)
   array_index = 0
 
   while array_index < src.count do
-    food_index = 0
-    while food_index < src[array_index].count do
-      pizza_combos << "I love #{src[array_index][food_index][0]} and #{src[array_index][food_index][1]} on my pizza"
-      food_index += 1
-    end
+    pizza_combos << "I love #{src[array_index][0]} and #{src[array_index][0]} on my pizza"
     array_index += 1
   end
   pizza_combos
